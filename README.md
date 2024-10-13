@@ -29,9 +29,9 @@ git push -u origin <yourFirstName>
 > Create a pull request on github for me to merge the code with the main branch
 
 > [!NOTE]
-> If you want to see other people code that has not been merged to the main branch, checkout their own branch on github. if you don't understand ask google
-> To run and test other people app, run the installation file (the one ending with .mlappinstall) on matlab. You can do this by clicking the `install package` on the top left corner of matlab window
-> To make your app installable, package it by clicking the `package app` on the top left corner of the screen.
+> If you want to see other people code that has not been merged to the main branch, checkout their own branch on github. if you don't understand ask google<br>
+> To run and test other people app, run the installation file (the one ending with .mlappinstall) on matlab. You can do this by clicking the `install package` on the top left corner of matlab window<br>
+> To make your app installable, package it by clicking the `package app` on the top left corner of the screen.<br>
 
 
 ### Folder structure
