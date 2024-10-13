@@ -1,0 +1,60 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="114219817" file="C:\Users\victo\OneDrive\Documents\MATLAB\simpleCalculator.prj" location="C:\Users\victo\OneDrive\Documents\MATLAB" name="simpleCalculator" target="target.mlapps" target-name="Package App">
+    <param.appname>simpleCalculator</param.appname>
+    <param.authnamewatermark>Victory</param.authnamewatermark>
+    <param.email>victorychibuike121@gmail.com</param.email>
+    <param.company>University of Lagos</param.company>
+    <param.icon />
+    <param.icons />
+    <param.summary>Just a basic calculator used to learn how to use MATLAB app builder</param.summary>
+    <param.description />
+    <param.screenshot>C:\Users\victo\OneDrive\Desktop\app.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>5f88cf83-f057-4420-8582-058ff4b8131c</param.guid>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>C:\Users\victo\OneDrive\Documents\PROJECTS\simpleCalculator.mlapp</file>
+    </fileset.main>
+    <fileset.depfun />
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\victo\OneDrive\Documents" name="MATLAB" optional="false">C:\Users\victo\OneDrive\Documents\MATLAB</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023b</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
