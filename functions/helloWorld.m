@@ -18,9 +18,22 @@ output:           hello [1, 2, 3]!
 %------------------ Your function definition goes here ---------------------- %
 
 
+function output = helloWorld(name)
+    if ~ischar(name)
+        name = mat2str(name);                 % Convert non-char inputs to string
+    end
+    
+    output = ['Hello ', name, '!'];
+    
+    disp(output);
+end
+
 
 % ----------------- End of definition, put tests below ---------------------- %
 
+
+print(helloWorld([1, 2, 3]));
+% Output: Hello [1 2 3]!
 
 
 % ---------------------------- End of file ---------------------------------- %
