@@ -17,10 +17,9 @@ output:           hello [1, 2, 3]!
 
 %------------------ Your function definition goes here ---------------------- %
 
-
+print(Hello world!)
 
 % ----------------- End of definition put tests below ---------------------- %
-
 
 
 % ---------------------------- End of file ---------------------------------- %
