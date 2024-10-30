@@ -1,0 +1,65 @@
+SNA APP DESIGN LOGIC
+
+First Screen (Input interface)
+	# first group of components
+	# This is where the user enters the observable propertise of the soil
+
+	Color: 			Drop down list
+	Tesxture:		Drop down list
+	Particle size:		Slidder from powder to 0.05mm
+	Date:			Date picker
+	Run Analysis:		Button
+	---------------------------------------------------------------------------		
+	# second group of components
+	# (preferably to the right of first group, with same height as first group)
+	# The user don't enter anything here, rather as he edit in the first
+	# group of components, we display an image of a soil that best matches his
+	# description with the assumed soil name beneth the image
+
+	soilImageDisplay:	Image display field
+	Name of Soil:		Predicted soil type
+	----------------------------------------------------------------------------	
+	# Third group of components
+	# This feature will be there but the backend will be unimplemented
+	# in our first iteration. This components group is for the farmer to
+	# upload a picture of his own soil
+
+	Upload Button:		Button
+	SoilImageDisplay:	Image display field
+	-----------------------------------------------------------------------------
+	-----------------------------------------------------------------------------
+
+
+Second Screen (Display of soil propertise)
+	This screen is already almost perfect. but you have to add display feature for 4
+	more propertise. I will state the property and possible values they can have, choose
+	the display component that is most suitable blends well with other component on the \
+	screen. Note that the user does not input anything here aside two buttons
+	
+	Water Retention:		{ Low	|   Moderate  |   High }
+	Drainage:			{ Poor 	|   Moderate  |   Good  |  Very Good }
+	Aeration:			{ Low   |   Moderate  |   Good  |  Very Good }
+	Fertility:			{ Low	|   Moderate  |   High }
+	-------------------------------------------------------------------------------
+	# User interaction
+	Save Button:			Button
+	Next screen button:		Button
+	-------------------------------------------------------------------------------
+	-------------------------------------------------------------------------------
+
+Third and final Screen (Reccomendation display)
+	# Clear everything there and redo what I am about to say. organize the structure
+	# Yourself, I will only list the components and not their positions
+	#
+	# We want to display the following things here, so choose the beat suited component
+	
+	1) Soil type
+	2) A list of best suited crops
+	3) Optimal planting season for them
+	4) A paragrah of text
+
+	# In addition, the following components should be there
+	
+	Save Button (png or pdf):		Button
+	Link:					clickable link
+
