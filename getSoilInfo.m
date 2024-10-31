@@ -19,7 +19,7 @@
 %       % Get information for 'Sand'
 %       soilInfo = GETSOILINFO('Sand', soilTable);
 
-function result = getSoilInfo(soilTypeName, soilTable)
+function result = getSoilInfoo(soilTypeName, soilTable)
     if nargin < 1 
         error('Please provide at least the soilTable argument.');
     elseif nargin == 1
@@ -35,3 +35,5 @@ function result = getSoilInfo(soilTypeName, soilTable)
         end
     end
 end
+
+f = getSoilInfoo(soilTable)
